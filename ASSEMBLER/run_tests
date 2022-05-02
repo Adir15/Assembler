@@ -1,0 +1,38 @@
+echo "******************************************"
+make -C ./ clean_test file=error
+echo "******************************************"
+cd ps
+../assembler ps
+make -C ../ diff file=ps
+make -C ../ clean_test file=ps
+cd ../
+
+echo "******************************************"
+cd ps1
+../assembler ps1
+make -C ../ diff file=ps1
+make -C ../ clean_test file=ps1
+cd ../
+
+echo "******************************************"
+cd example2
+../assembler example2
+make -C ../ diff file=example2
+make -C ../ clean_test file=example2
+cd ../
+
+echo "******************************************"
+cd bigcode
+../assembler bigcode
+make -C ../ diff file=bigcode
+make -C ../ clean_test file=bigcode
+cd ../
+
+echo "******************************************"
+cd genCode
+../assembler genCode
+diff -b genCode.ob ref/genCode.ob
+diff -b genCode.am ref/genCode.am
+make -C ../ clean_test file=genCode
+cd ../
+

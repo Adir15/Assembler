@@ -1,0 +1,69 @@
+******************************************
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  error/*.ob error/*.ent error/*.am error/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+******************************************
+ps finished successfully
+make: Entering directory '/home/user/Desktop/maman14'
+sort ps/ps.ent > tmp
+mv tmp ps/ps.ent
+sort ps/ps.ext > tmp
+mv tmp ps/ps.ext
+diff -b ps/ps.ob ps/ref/ps.ob
+diff -b ps/ps.am ps/ref/ps.am
+diff -b ps/ps.ent ps/ref/ps.ent
+diff -b ps/ps.ext ps/ref/ps.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  ps/*.ob ps/*.ent ps/*.am ps/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+******************************************
+ps1 finished successfully
+make: Entering directory '/home/user/Desktop/maman14'
+sort ps1/ps1.ent > tmp
+mv tmp ps1/ps1.ent
+sort ps1/ps1.ext > tmp
+mv tmp ps1/ps1.ext
+diff -b ps1/ps1.ob ps1/ref/ps1.ob
+diff -b ps1/ps1.am ps1/ref/ps1.am
+diff -b ps1/ps1.ent ps1/ref/ps1.ent
+diff -b ps1/ps1.ext ps1/ref/ps1.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  ps1/*.ob ps1/*.ent ps1/*.am ps1/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+******************************************
+example2 finished successfully
+make: Entering directory '/home/user/Desktop/maman14'
+sort example2/example2.ent > tmp
+mv tmp example2/example2.ent
+sort example2/example2.ext > tmp
+mv tmp example2/example2.ext
+diff -b example2/example2.ob example2/ref/example2.ob
+diff -b example2/example2.am example2/ref/example2.am
+diff -b example2/example2.ent example2/ref/example2.ent
+diff -b example2/example2.ext example2/ref/example2.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  example2/*.ob example2/*.ent example2/*.am example2/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+******************************************
+bigcode finished successfully
+make: Entering directory '/home/user/Desktop/maman14'
+sort bigcode/bigcode.ent > tmp
+mv tmp bigcode/bigcode.ent
+sort bigcode/bigcode.ext > tmp
+mv tmp bigcode/bigcode.ext
+diff -b bigcode/bigcode.ob bigcode/ref/bigcode.ob
+diff -b bigcode/bigcode.am bigcode/ref/bigcode.am
+diff -b bigcode/bigcode.ent bigcode/ref/bigcode.ent
+diff -b bigcode/bigcode.ext bigcode/ref/bigcode.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  bigcode/*.ob bigcode/*.ent bigcode/*.am bigcode/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
+******************************************
+genCode finished successfully
+make: Entering directory '/home/user/Desktop/maman14'
+rm -f  genCode/*.ob genCode/*.ent genCode/*.am genCode/*.ext
+make: Leaving directory '/home/user/Desktop/maman14'
